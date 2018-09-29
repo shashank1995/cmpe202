@@ -59,7 +59,7 @@ Collaborators:
 
 
 # Answer 2:-
-I choose Observer pattern as my pattern design. Here Seat Allocator is an observer and it is observing table as it’s subject.
+I choose Observer pattern as my design pattern. Here Seat Allocator is an observer and it is observing table as it’s subject. Here when status of table changes to empty, a Client may need to be notified.
 
 Seat allocator: Observer
 
