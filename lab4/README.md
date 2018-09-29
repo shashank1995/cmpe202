@@ -1,7 +1,7 @@
 <ul>
 <li>
-#Answer 1:-
-<bold>1.Class Name: Client</bold>
+# Answer 1:-
+** 1.Class Name: Client **
 
 Responsibilities: 1. Tell manager to book seat by providing info (Name,Cell Phone #, Number of people in the party).
 2. Response to sms received regarding booking
@@ -9,7 +9,7 @@ Responsibilities: 1. Tell manager to book seat by providing info (Name,Cell Phon
 Collaborators:1.Manager
 2.SMS Sender
 
- <bold>2.Class Name: Manager</bold>
+ ** 2.Class Name: Manager **
 
 Responsibilities: 1. Take request from Client
 2. Forward client information to Seat allocator
@@ -17,7 +17,7 @@ Responsibilities: 1. Take request from Client
 Collaborators: 1.Client
 2.Seat allocator
 
-<bold>3.Client Name: Seat allocator</bold>
+** 3.Client Name: Seat allocator **
 
 Responsibilities: 1.Add client in the queue
 2. Check if client party is less than available table size
@@ -26,7 +26,7 @@ Responsibilities: 1.Add client in the queue
 Collaborators:1.Manager
 2.SMS Sender
 
-<bold>4.Client Name: SMS Sender</bold>
+** 4.Client Name: SMS Sender **
 
 Responsibilities: 1. Send sms to given client phone number 
 2. Read sms response received from client and send request to Seat allocator
@@ -36,7 +36,7 @@ Collaborators: 1.Seat allocator
 
 
 <li>
-#Answer 2:-
+# Answer 2:-
 I choose Observer pattern as my pattern design.Here Seat Allocator is an observer and it is observing table as it’s subject.
 Seat allocator: Observer
 Table: Subject
